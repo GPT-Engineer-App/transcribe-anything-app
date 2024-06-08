@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { transcribeAnything } from "../utils/transcribeAnything";
 import { Container, VStack, Text, Button, Input, Box, Heading, Checkbox, Radio, RadioGroup, Stack } from "@chakra-ui/react";
 import { FaMicrophone, FaYoutube } from "react-icons/fa";
 
